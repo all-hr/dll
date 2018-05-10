@@ -1,0 +1,9 @@
+#忽略.idea文件夹的内容#
+
+.vscode/
+.idea/
+dist/
+node_modules/
+*.log
+
+/build/server.config.json
