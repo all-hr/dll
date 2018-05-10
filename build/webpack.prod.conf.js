@@ -20,7 +20,7 @@ const config = merge(baseWebpackConfig, {
             name: '[name]',
             path: `dist/pd/${packageInfo.version}/[name].json`
         }),
-        new Clean(['dist/dev'], {
+        new Clean(['dist/pd'], {
             root: process.cwd()
         })
     ]
